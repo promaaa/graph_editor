@@ -1,0 +1,22 @@
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #1abc9c;
+    --background-color: #f8f9fa;
+    --panel-background-color: #ffffff;
+    --text-color: #34495e;
+    --border-color: #ecf0f1;
+    --shadow-color: rgba(0, 0, 0, 0.05);
+}
+
+body {
+    margin: 0;
+    font-family: "Fira Mono", monospace;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+code {
+    font-family: "Fira Mono", monospace;
+}
